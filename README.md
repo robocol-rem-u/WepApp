@@ -7,9 +7,10 @@ This repository contains the WebApp developed in Python-Django for remote rover 
 1. Clone the repository
 2. Install Python 3.7
 3. Intall Django and dependencies
-4. Connect required hardware
-5. Run `python3 manage.py runserver <ip>:<port>`
-6. Browse to `http://localhost:<port>`
+4. Install Django-Channels and Redis
+5. Connect required hardware
+6. Run `python3 manage.py runserver <ip>:<port>`
+7. Browse to `http://localhost:<port>`
 
 
 ### Prerequisites
