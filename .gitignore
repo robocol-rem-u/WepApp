@@ -202,8 +202,8 @@ dmypy.json
 *.php
 *.rss
 *.xhtml
-
 *.md
-*.txt
+!*.txt
+
 
 # End of https://www.gitignore.io/api/web,django,python
