@@ -206,8 +206,8 @@ dmypy.json
 !*.txt
 .DS_Store
 .idea
-!static/*
-!templates/*
+!Interfaz/static*
+!Interfaz/templates*
 
 
 # End of https://www.gitignore.io/api/web,django,python
