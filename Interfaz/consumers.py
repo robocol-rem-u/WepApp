@@ -689,11 +689,11 @@ if ACTIVAR_JK:
 ### ACTUALIZACION DE TELEMETRIA
 
 
-s = socket.socket()
-host = '192.168.0.100'
-port = 7080
-s.bind((host, port))
-s.listen(5)
+#s = socket.socket()
+#host = '192.168.0.100'
+#port = 7080
+#s.bind((host, port))
+#s.listen(5)
 
 def ThreadEnviarAInterfaz():
 	global latitude, longitude, azimuth, l_speed, steering_spd, latitude_start, longitude_start
@@ -724,7 +724,7 @@ def ThreadEnviarAInterfaz():
 
 		c.close()
 
-threading.Thread(target=ThreadEnviarAInterfaz).start()
+#threading.Thread(target=ThreadEnviarAInterfaz).start()
 
 
 
