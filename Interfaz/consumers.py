@@ -691,7 +691,7 @@ if ACTIVAR_JK:
 
 
 #s = socket.socket()
-#host = '192.168.0.100'
+#host = '192.168.0.999'
 #port = 7080
 #s.bind((host, port))
 #s.listen(5)
