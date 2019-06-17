@@ -126,6 +126,7 @@ joint6 = 0
 
 CONECTAR_XBEE = False
 #CONECTAR_WIFI = True
+# Quejesto
 CONECTAR_WIFI = False
 
 if CONECTAR_XBEE:
