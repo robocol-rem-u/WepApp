@@ -125,9 +125,7 @@ joint6 = 0
 #### INICIALIZACION DE CONEXIONES ####
 
 CONECTAR_XBEE = False
-#CONECTAR_WIFI = True
-# Quejesto
-CONECTAR_WIFI = False
+CONECTAR_WIFI = True
 
 if CONECTAR_XBEE:
 	try:
